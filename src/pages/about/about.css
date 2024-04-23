@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'castellar';
+    src: url('../../assets/fonts/CASTELAR.TTF');
+    font-weight: 400;
+}
+
+.aboutus_inner{
+    padding: 5%;
+    padding-left: 6%;
+    font-family:'Montserrat' ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutus_info{
+    display: flex;
+    flex-direction:row ;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus_text{
+    text-align: left;
+    width: 400px;
+}
+
+.title_aboutus{
+    font-family:'castellar' ;
+    font-size: 48px;
+    font-weight:400;
+    color: #141f47;
+    padding-bottom: 5%;
+}
+
+.text_ab{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.best_aboutus{
+    padding: 150px;
+}
